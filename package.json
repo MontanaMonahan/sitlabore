@@ -1,0 +1,49 @@
+{
+  "name": "sitlabore",
+  "version": "1.0.0",
+  "description": "a typescript client for connecting with salesforce APIs",
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
+  "bin": {
+    "ts-force-gen": "build/gen/generate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MontanaMonahan/sitlabore.git"
+  },
+  "keywords": [
+    "salesforce",
+    "nulla",
+    "rest"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.43",
+    "@types/nock": "^8.2.1",
+    "@types/node": "^8.0.4",
+    "@types/qs": "^6.5.0",
+    "chai": "^4.1.2",
+    "dotenv": "^4.0.0",
+    "minimist": "^1.2.0",
+    "mocha": "^3.5.2",
+    "mocha-typescript": "^1.1.8",
+    "nock": "^9.0.14",
+    "source-map-support": "^0.4.18",
+    "ts-simple-ast": "^0.61.1",
+    "tslint": "^5.4.3",
+    "tslint-config-standard": "^6.0.1",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "qs": "^6.5.1",
+    "reflect-metadata": "^0.1.10",
+    "tslib": "^1.6.0"
+  },
+  "author": "MicaelaBlock",
+  "homepage": "https://github.com/MontanaMonahan/sitlabore.git"
+}
